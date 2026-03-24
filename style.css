@@ -102,3 +102,23 @@ footer {
     justify-content: space-between;
     align-items: center;
 }
+
+@media (max-width: 480px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .opciones-link {
+        justify-content: space-between;
+    }
+
+    .servicios-grid {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .servicio-card {
+        width: 100%;
+    }
+}
